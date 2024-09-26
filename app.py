@@ -3,6 +3,7 @@ import numpy as np
 import pandas
 import sklearn
 import pickle
+import streamlit as st
 
 model = pickle.load(open('C:/Users/SANTOSH/OneDrive/Desktop/agriculture.app/project/model.pkl','rb'))
 sc = pickle.load(open('C:/Users/SANTOSH/OneDrive/Desktop/agriculture.app/project/standscaler.pkl','rb'))
